@@ -20,6 +20,10 @@ int main() {
     } else {
         printf("k is divisible by 5\n");
     }
+    printf("1 && 0 : %d\n", 1 && 0);
+    printf("1 || 0 : %d\n", 1 || 0);
+    printf("!(1 && 0) : %d\n", !(1 && 0));
+    printf("!(1 || 0) : %d\n", !(1 || 0));
     return 0;
 }
 
