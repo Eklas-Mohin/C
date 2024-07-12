@@ -10,6 +10,6 @@ int main() {
             // No further condition check
         }
     }
-    printf("value of i = %d\n", i);
+    printf("value of i = %d\n", i); // i = 10
     return 0;
 }
