@@ -3,7 +3,6 @@
 		"prefix": "c boiler",
 		"body": [
 			"#include <stdio.h>\n",
-
 			"int main() {",
 			"\t$1",
     		"\treturn 0;",
