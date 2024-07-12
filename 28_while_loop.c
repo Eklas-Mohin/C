@@ -18,9 +18,8 @@ int main() {
     of i is not incremented
 
     Another example of infinite loop
-    
+
     while (1) {
         statement(s);
     }
-
 */
