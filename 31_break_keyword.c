@@ -6,7 +6,8 @@ int main() {
         printf("%d\n", i);
         if (i == 10) {
             break; // Exits loop immediately
-            //  No further condition check
+            // No further increment/decrement
+            // No further condition check
         }
     }
     printf("value of i = %d\n", i);
