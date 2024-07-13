@@ -18,7 +18,7 @@ int main() {
         g++; // Increment guess count
 
         if (n == random_number) {
-            printf("Correct guess in %d attempts\n", g);
+            printf("Correct guess in %d attempt\n", g);
             break; // Break out of loop if guess is correct
         } else if (n < random_number) {
             printf("Greater than that\n"); // Prompt if guess is too low
