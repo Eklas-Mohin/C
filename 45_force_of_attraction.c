@@ -14,11 +14,11 @@ int main() {
     float mass;
     float gravity_of_earth = 9.8;
 
-    printf("Enter mass of the object: ");
+    printf("Enter mass(kg) of the object: ");
     scanf("%f", &mass);
 
     float force = attractionForce(mass, gravity_of_earth);
-    printf("Force of attraction exerted by Earth: %.2f\n", force);
+    printf("Force of attraction exerted by Earth: %.2fN\n", force);
 
     return 0;
 }
