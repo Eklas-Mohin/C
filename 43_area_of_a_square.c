@@ -9,7 +9,7 @@ int main() {
     double side;
     printf("Enter side of the square : ");
     scanf("%lf", &side);
-    printf("Area of the square : %f\n", pow(side, 2.0));
+    printf("Area of the square : %f\n", pow(side, 2));
     return 0;
 }
 
