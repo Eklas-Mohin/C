@@ -20,6 +20,6 @@ int main() {
     printf("Enter value for n : ");
     scanf("%lld", &n);
     long long fib = getFibonacci(n);
-    printf("Fibonacci(%d) = %lld\n", n, fib);
+    printf("Fibonacci(%lld) = %lld\n", n, fib);
     return 0;
 }
