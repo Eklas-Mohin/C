@@ -1,23 +1,19 @@
 /**
-*    author: mohin
-**/
+ *    author: mohin
+ **/
 
 #include <stdio.h>
 
-// Function to display the maximum of three integers
-void display_max(int a, int b, int c) {
-    int mx;
-    // Determine the maximum value among a, b, and c
-    if (a > b && a > c) {
-        mx = a;
-    } else if (b > a && b > c) {
-        mx = b;
-    } else {
-        mx = c;
+// Function to find the maximum of three integers
+int findMax(int a, int b, int c) {
+    int max = a;  // Assume a is the maximum
+    if (b > max) {
+        max = b;
     }
-
-    // Print the maximum value
-    printf("Max(a, b, c) : %d\n", mx);
+    if (c > max) {
+        max = c;
+    }
+    return max;
 }
 
 int main() {
@@ -34,12 +30,13 @@ int main() {
     printf("c: ");
     scanf("%d", &c);
 
-    // Call the function to display the maximum value
-    display_max(a, b, c);
+    // Call the function to find and print the maximum value
+    int max = findMax(a, b, c);
+    printf("Max(a, b, c): %d\n", max);
 
     return 0;
 }
 
 /*
-    void functions returns nothing
+    Functions returning void do not return a value.
 */
